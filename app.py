@@ -39,7 +39,7 @@ password = ""
 for character in range(0, passwordLength):
     randomCharacter = randint(0, len(selected) - 1)
     password += selected[randomCharacter]
-    copy(password)
+copy(password)
 
 print(f"Your generated password is: {password}")
 print("The password has been copied to your clipboard!")
