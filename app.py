@@ -43,3 +43,4 @@ for character in range(0, passwordLength):
 
 print(f"Your generated password is: {password}")
 print("The password has been copied to your clipboard!")
+input("Press any key to continue...")
