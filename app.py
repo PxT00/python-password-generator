@@ -37,7 +37,7 @@ for option in splitedPasswordOptions:
 password = ""
 
 for character in range(0, passwordLength):
-    randomCharacter = randint(0, len(selected))
+    randomCharacter = randint(0, len(selected) - 1)
     password += selected[randomCharacter]
     copy(password)
 
